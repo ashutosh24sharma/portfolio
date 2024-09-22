@@ -17,7 +17,7 @@ function Hero() {
             <div className="flex flex-col items-center lg:items-start">
                 <motion.h1 variants={conatainer(0)} initial="hidden" animate="visible" className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">Ashutosh Sharma</motion.h1>
             <motion.span variants={conatainer(0.5)} initial="hidden" animate="visible"
-              className="bg-gradient-to-r from-pink-600 via-slate-100 to-purple-400 bg-clip-text text-3xl tracking-tight">Full Stack Developer</motion.span>
+              className="bg-gradient-to-r from-pink-600 via-slate-100 to-purple-400 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.span>
            <motion.p variants={conatainer(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
             </div>
             </div>
