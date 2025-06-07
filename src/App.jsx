@@ -1,11 +1,11 @@
 import Navbar from "./component/navbar";
-import Project from "./component/project";
 import Exprience from "./component/exprience";
 import Hero from "./component/Hero";
 import About from "./component/about";
 import Teach from "./component/technologies";
 import Contact from "./component/contact";
 import Achie from "./component/achievment";
+import ProjectsPage from "./component/projects";
 
 function App() {
   return (    <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300">
@@ -19,7 +19,8 @@ function App() {
     <About/>
     <Teach/>
     <Exprience/>
-    <Project/>
+    
+    <ProjectsPage/>
     
     <Achie/>
     <Contact/>
